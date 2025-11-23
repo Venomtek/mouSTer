@@ -141,7 +141,7 @@ Please do not use the 3.16.2600 release. It's buggy. instead please use this: ht
 * [RetroGralnia](https://www.youtube.com/watch?v=TnNj3VBJfCA)
 * [Hackaday](https://hackaday.com/2020/07/14/modern-mice-on-old-computers/) - [Hackaday](https://hackaday.com/2021/01/22/mouster-brings-usb-to-retro-computers/) - [Hackaday](https://hackaday.com/2021/08/09/this-old-mouse-building-a-usb-adapter-for-a-vintage-depraz-mouse/) - [Hackaday](https://hackaday.com/2023/02/16/the-mouster-adapter-now-has-amiga-scroll-support/)
 ***
-## Meet us on Discord [![](https://dcbadge.vercel.app/api/server/UcGMrMgv7V)](https://discord.gg/UcGMrMgv7V)
+## Meet us on Discord (https://discord.gg/UcGMrMgv7V)
 ***
 [^1]: https://www.urbandictionary.com/define.php?term=Mouster
 [^2]: Device with wireless adapter connected to USB port is still USB Device. 
