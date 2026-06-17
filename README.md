@@ -27,7 +27,7 @@ You call that person a mouSTer.* [^1].
 ### mouSTer can emulate:
 
 - Atari mouse 
-- Amiga mouse (need a min rev. 0.8.298 [driver](https://github.com/willyvmm/Amiga-mouSTer-wheel-mouse-driver/releases/latest) and min firmware rev. 3.20.4600 for wheel support)
+- Amiga mouse (need a min rev. 0.9.965  and min firmware rev. 3.23.5145 for wheel support)
 - Joystick
 - Gamepad
 - Commodore C1351 mouse (GEOS mouse)
@@ -43,7 +43,7 @@ You call that person a mouSTer.* [^1].
 - ALL USB Joysticks
     - USB joysticks are not so popular, so **mouSTer** has not been tested with too many of them.
 ***
-### Unsupported USB Devices:
+### Known Unsupported USB Devices:
 
 -  "Keyboard Point Stick for Lenovo IBM Thinkpad Computer" - a trackpoint clone
 ***
@@ -57,7 +57,7 @@ You call that person a mouSTer.* [^1].
 - autofire speed is also configurable
 ***
 
-#### Features:
+#### Amiga xtra Features:
 - Vertical wheel support
 - Horizontal wheel support
 - Mouse button #4 support
