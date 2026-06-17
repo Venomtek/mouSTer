@@ -55,16 +55,7 @@ You call that person a mouSTer.* [^1].
 - full support for button mapping
 - full support for autofire on ANY button
 - autofire speed is also configurable
-- built-in debug feature, allowing the collection of debug data in case of troubles.
 ***
-## Notes about Amiga driver and protocol:
-
-The protocol has been designed to ensure minimal code footprint and quick processing keeping high compatibility with classic mouse.
-Unfortunately, the protocol relies on CIA clock, and will not work on systems with overclocked CIA.
-The main clue of the protocol is to be as much compatible with the standard as possible.
-So far, the driver do not hijack any buttons, so both LMB and MMB may be used without any issues. 
-However, there is ONE buttons combination that is not supported:
-Simultaneously pressing LMB + MMB disables receiving new wheel events from the mouSTer.
 
 #### Features:
 - Vertical wheel support
@@ -106,8 +97,6 @@ There are more devices shown up on the market recently that use the same physica
 | Support for PC Serial mouse emulation | ![](https://geps.dev/progress/37) |
 | Support for SEGA Mega Drive pad emulation | ![](https://geps.dev/progress/10) |
 | We're open to suggestions | ![](https://geps.dev/progress/999) |
-| Open source wheel driver for Amiga | ![](https://geps.dev/progress/34) |
-| Semi-open SDK for your emulation | ![](https://geps.dev/progress/1) | 
 | Let us know if you're interested | ![](https://geps.dev/progress/100) |
 | So we can prioritize tasks| ![](https://geps.dev/progress/70) |
 
@@ -115,7 +104,7 @@ There are more devices shown up on the market recently that use the same physica
 
 ## Firmware download
 ### Latest stable firmware download: https://github.com/willyvmm/mouSTer/releases/latest
-Please do not use the 3.16.2600 release. It's buggy. instead please use this: https://github.com/willyvmm/mouSTer/releases/tag/3.17.3475 or newer until the new stable firmware is released.
+
 ### Latest pre-release (if any) can be found here: https://github.com/willyvmm/mouSTer/releases/
 
 ***

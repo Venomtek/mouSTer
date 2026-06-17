@@ -1,14 +1,86 @@
+3.23.5308 - Fixed Xinput device class recognition.
+          - A wide range of Xinput compatible devices should be recognized now.
+          - Tested with Xbox360 wired and 8BitDo Ultimate 2C.
+         
+3.23.5145 - Amiga Wheel support mastered.
+          - Serial number visible in INI file. (format may change)
+          - HEX configuration string generation added. (reading will be added soon)
+
+3.22.4923 - Completely rebuild wheel support - test build with limited functionality
+
+3.22.4815 - Added support for Joy2B+ for 8 bit Atari https://github.com/ascrnet/Joy2Bplus
+          - Added 5 button Joystick support: https://github.com/crystalct/5plusbuttonsJoystick
+            Requested for MEGA65 :)
+          - Debug functionality removed.
+          - Amiga wheel may be not functioning in this build.
+
+3.21.4661 - Corrected an error that could cause deadlock and/or unpredicted behavior of LMB in Amiga mode.
+
+3.21.4660 - Pre-Release 6
+            Improved version of Amiga wheel mouSTer protocol. Including "idle fast path".
+            Requires driver minimum revision 0.9.330
+
+3.20.4606 - Pre-Release 5
+            Event frequency limitation for Amiga wheel has been removed.
+            Improved compatibility with PiStorm32Lite
+
+3.20.4600 - Pre-Release 4
+            The main change is support for the mouse wheel with custom protocol and custom driver.
+            The driver is located here: https://github.com/willyvmm/Amiga-mouSTer-wheel-mouse-driver/releases/latest
+
+3.17.3475 - Pre-Release 3
+            Full reset forced after configuration change (INI successful Read) - overall stability and reliability improvement. 
+
+3.17.3470 - Pre-Release 2
+            Revpotlines option restored. (has been removed by mistake)
+
+3.17.3455 - Pre-Release 1
+            C1351 emulation merged/backported with 2600 build.
+
+3.17.3377 - Debug revision.
+            C1351 emulation engine rebuilt.
+            Some minor device detection improvements.
+
+3.17.3314 - Debug revision.
+            C1351 is still broken in this build.
+            Improved detection of some devices.
+
+3.17.3309 - Debug revision.
+            C1351 is still broken in this build.
+            Improved compatibility with devices that do not comply with strict HID descriptor rules. (fx. The Joystick)
+            Improved compatibility with devices that present different VID:PID for different hosts. (fx. Speedlink Competition Pro)
+            
+3.17.3291 - Debug revision. 
+            C1351 is broken in this build.
+            mouSTer is by default set to CD32 pad emulation mode for this build.
+            DS3/SIXAXIS and X360 mapping Fixed.
+
+3.17.3222 - Debug revision. 
+            C1351 is broken in this build.
+            mouSTer is by default set to CD32 pad emulation mode for this build.
+            CD32 pad emulation mode "random buttons burst issue solved"
+            Known Issue: Default button mapping for SONY DS3/SIXAXIS in CD32 mode is broken.
+
+3.17.3150 - Debug revision. C1351 is broken in this build.
+            mouSTer is by default set to micromys emulation mode for this build.
+            Micromys emulation engine completely rebuilt.
+
+3.16.2605 - Micromys compatible extension (wheel) has been added to C1351 mode.
+            New Amiga mouse mode: Micromys compatible extension (wheel) has been added.
+            The Default INI file is now included in the firmware package.
+            All further Releases will be available also on GitHub: https://github.com/willyvmm/mouSTer
+
 3.16.2600 - Major code refactoring.
             Simple reporting after INI file processing added. New file "MOUSTER.MSG" is created with short status.
             Added support for emulating Amiga CD32 joypad. (default settings are for Sony DS4).
             Added support for wireless XBOX 360 controller.
             Added Debug function, to improve feedback for unsupported devices.
             Improved overall mouSTer stability (entering SOS mode)
-            Improved mouse latency. In the worst case up to ca. 20ms was possible.
-            
+            Improved mouse latency. In the worst-case up to ca. 20ms was possible.
+
 3.13.2039 - No changes in the functionality. Many code cleanups.
             A new method of generating an internal INI/manual was implemented.
-            
+
 3.12.2019 - Sixaxis aka DualShock3 aka PS3 controller support added.
             Xbox360 controller support added
             Trackball emulation mode added (experimental).
@@ -18,7 +90,7 @@
             C1351 fixed the issue under NTSC machines. 
 
 3.11.1962 - Heartbeat configuration added. Validate directions implemented. Autofire implemented. 
-NOTICE: The button definitions in INI file were slightly changed to unify definition across working modes
+NOTICE: The button definitions in the INI file were slightly changed to unify definitions across working modes
 
 3.10.1939 - Service release. - Improved compatibility with a wide range of devices.
 
@@ -33,6 +105,6 @@ NOTICE: The button definitions in INI file were slightly changed to unify defini
 3.08.1743 - First public release.
 
 NOTE:
-Due to strange construction of Atari 7800, please do not use mouSTer with this machine until we test it properly.
-If you want to use with Atari7800, Use it on your responsibility. Warranty do not covert this machine.
-We are working on gudelines to possibly use with Atari 7800.
+Due to the strange construction of Atari 7800, please do not use mouSTer with this machine until we test it properly.
+If you want to use the mouSTer with Atari7800, Use it on your responsibility. Warranty do not covert this machine.
+We are working on guidelines to possibly use with Atari 7800.
